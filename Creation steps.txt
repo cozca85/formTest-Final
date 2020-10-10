@@ -1,0 +1,37 @@
+1) Create a new project
+
+2) Create the gemfile and place gems
+
+3) run the following in terminal:
+
+bundle install
+
+bundle update
+
+rspec init
+
+4) place spec file in your spec folder
+
+5) add the following to .rspec
+
+--format documentation
+--color
+--require spec_helper
+--no-fail-fast
+--profile
+--format html
+--out rspec_results.html
+
+5) create pages sub-directory and create your pages for page object pattern
+
+6) refactor spec_helper
+
+7) add tes_spec.rb and code the tests
+
+8) add require spec_helper.rb at the top of test_spec.rb if not present
+
+9) run rspec from root directory to run the tests
+
+10) results will be in rspec_results.html
+
+
