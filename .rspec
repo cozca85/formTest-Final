@@ -1,0 +1,8 @@
+--require spec_helper
+--format documentation
+--color
+--require spec_helper
+--no-fail-fast
+--profile
+--format html
+--out rspec_results.html
