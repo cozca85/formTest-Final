@@ -27,6 +27,7 @@ class SubmitPage < BasePage
 
   def clickSubmitButtonMobile
     submitButton = @@browser.button(class: 'jfInput-button forSubmit forMobileNav form-submit-button u-center jsMobileSubmit')
+    submitButton.wait_until_present
     submitButton.click
   end
 end

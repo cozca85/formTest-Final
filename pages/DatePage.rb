@@ -20,7 +20,6 @@ class DatePage < BasePage
 
   def fillDateMobile
     dateInputField = @@browser.input(id: 'input_6')
-    dateInputField.wait_until_present
     date = DateTime.now.strftime('%m-%d-%Y')
     dateInputField.send_keys(date)
   end
