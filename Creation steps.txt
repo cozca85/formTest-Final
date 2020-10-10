@@ -24,7 +24,14 @@ rspec init
 
 5) create pages sub-directory and create your pages for page object pattern
 
+6) refactor spec_helper
 
+7) add tes_spec.rb and code the tests
 
+8) add require spec_helper.rb at the top of test_spec.rb if not present
+
+9) run rspec from root directory to run the tests
+
+10) results will be in rspec_results.html
 
 
