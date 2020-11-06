@@ -21,7 +21,7 @@ class NameInputPage < BasePage
 
   def fillinLastName
     surNameInput = @@browser.text_field(id: 'last_3')
-    surNameInput.send_keys(Faker::FunnyName.name)
+    surNameInput.send_keys(Faker::Name.name)
   end
 
   def clickNext
