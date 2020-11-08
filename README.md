@@ -1,6 +1,6 @@
 # formTest-Final
 
-NOTE: THE FORM URL will be invalid, tests are for review purposes only. 
+IMPORTANT NOTE: THE FORM URL will be invalid, tests are for review purposes only. 
 
 E2E acceptance testing with Ruby-Watir and Rspec
 
